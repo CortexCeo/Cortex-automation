@@ -1,0 +1,31 @@
+# Core dependencies
+langchain>=0.0.267
+langgraph>=0.0.20
+pinecone-client>=2.2.2
+google-cloud-aiplatform>=1.36.0
+
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+requests>=2.31.0
+
+# Logging
+logging>=0.4.9.6
+
+# Async support
+aiohttp>=3.8.5
+asyncio>=3.4.3
+
+langgraph-checkpoint-mongodb
+langgraph-swarm
+langmem
+fastapi
+uvicorn[standard]  # Includes websockets and other standard dependencies
+
+langchain-google-community
+langchain_google_genai
+google-genai
+
+# WebSocket support (alternative if not using uvicorn[standard])
+# websockets>=10.4

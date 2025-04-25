@@ -1,0 +1,15 @@
+report_writer/__pycache__
+*__pycache__
+__pycache__
+.env
+.logger.py
+*.log
+runner.ipynb
+runner.py
+downloads/
+report_test_output/
+test_output/
+test_outputs/
+.cache
+.test
+.DS_Store

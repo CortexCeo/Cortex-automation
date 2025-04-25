@@ -1,0 +1,46 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+venv/
+.env/
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.so
+*.dll
+*.dylib
+
+# Ignore package files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore specific files
+*.pvc
+run.py
+*.txt
+
+# Ignore data files
+*.pkl
+*.bin 
+*.pklz
+cortex_ingestion/cloud_services/cortex-service-key.json
+
+# Environment files
+.env
+config/*.env
+!config/example.env
+
+# Environment-specific logs
+logs/app_*.log
+Dockerfile
